@@ -37,11 +37,11 @@ const LeftSidebar = ({ show, setShow, onReload }: DisplayProps & { onReload?: ()
       <div className="flex flex-row items-center pb-6">
         <div className="rounded-xl bg-slate-1 p-1 shadow-depth-1">
           <a
-            href="https://reworkd.ai"
+            href="/"
             className="flex cursor-pointer gap-2 rounded-lg border-t bg-white bg-gradient-to-b from-slate-4 to-transparent px-2.5 py-1.5 duration-1000 hover:from-slate-6"
           >
-            <Image src="/logos/light-default-solid.svg" width="20" height="20" alt="Reworkd AI" />
-            <h1 className="text-sm font-medium">Reworkd</h1>
+            <Image src="/logos/light-default-solid.svg" width="20" height="20" alt="CoFoundAI" />
+            <h1 className="text-sm font-medium">CoFoundAI</h1>
           </a>
         </div>
         <button

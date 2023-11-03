@@ -6,6 +6,7 @@ import AppHead from "../components/AppHead";
 import LeftSidebar from "../components/drawer/LeftSidebar";
 import { SidebarControlButton } from "../components/drawer/Sidebar";
 import { useConfigStore } from "../stores/configStore";
+import TaskSidebar from "../components/drawer/TaskSidebar";
 
 type SidebarSettings = {
   mobile: boolean;

@@ -5,7 +5,7 @@ const AppHead = ({ title, ogTitle }: { title?: string; ogTitle?: string }) => {
   const description = "Assemble, configure, and deploy autonomous AI Agents in your browser.";
   return (
     <Head>
-      <title>{title ?? "AgentGPT"}</title>
+      <title>{title ?? "CofoundAI"}</title>
       <meta name="description" content={description} />
       <meta name="twitter:site" content="@ReworkdAI" />
       <meta name="twitter:card" content="summary_large_image" />

@@ -26,7 +26,7 @@ const SignIn = ({ providers }: { providers: Provider }) => {
     .filter((detail): detail is ButtonDetail => detail !== undefined);
 
   return (
-    <GridLayout title="Sign in - Reworkd">
+    <GridLayout title="Sign in - CofoundAI">
       <div className="grid h-screen w-screen place-items-center bg-gradient-radial from-slate-1 via-20% to-transparent">
         <div className="flex h-full w-full max-w-screen-lg flex-col items-center justify-center gap-10">
           <FadeIn
@@ -36,13 +36,13 @@ const SignIn = ({ providers }: { providers: Provider }) => {
           >
             <div className="flex flex-col items-center justify-center gap-16">
               <Image
-                src="/logos/dark-default-gradient.svg"
+                src="/logos/logocf.png"
                 width="150"
                 height="150"
-                alt="Reworkd AI"
+                alt="Cofound Ai"
               />
               <h1 className="bg-gradient-to-t from-white via-neutral-300 to-neutral-500 bg-clip-text text-center text-3xl font-bold leading-[1.1em] tracking-[-0.64px] text-transparent md:text-5xl">
-                Reworkd
+                CofoundAI
               </h1>
             </div>
           </FadeIn>

@@ -8,6 +8,9 @@ import {
   FaLinkedin,
   FaQuestion,
   FaXTwitter,
+  FaLink,
+  FaDownload,
+  FaCreditCard,
 } from "react-icons/fa6";
 
 type LinkMetadata = {
@@ -24,15 +27,21 @@ export const PAGE_LINKS: LinkMetadata[] = [
     icon: FaHouse,
   },
   {
-    name: "Help",
-    href: "https://docs.reworkd.ai/",
-    icon: FaQuestion,
-    className: "group-hover:text-red-500",
-  },
-  {
     name: "Templates",
     href: "/templates",
     icon: FaFileCode,
+    className: "transition-transform group-hover:scale-110",
+  },
+  {
+    name: "Subscription",
+    href: "/subscription",
+    icon: FaCreditCard,
+    className: "transition-transform group-hover:scale-110",
+  },
+  {
+    name: "Download User Data",
+    href: "/data",
+    icon: FaDownload,
     className: "transition-transform group-hover:scale-110",
   },
   {
@@ -46,22 +55,22 @@ export const PAGE_LINKS: LinkMetadata[] = [
 export const SOCIAL_LINKS: LinkMetadata[] = [
   {
     name: "Github",
-    href: "https://github.com/reworkd/AgentGPT",
+    href: "https://github.com/djmcflush/CofoundAIProd",
     icon: FaGithub,
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/ReworkdAI",
+    href: "https://twitter.com/Djmcflush",
     icon: FaXTwitter,
   },
   {
-    name: "Discord",
-    href: "https://discord.gg/gcmNyAAFfV",
-    icon: FaDiscord,
+    name: "Website",
+    href: "https://www.icgnu.xyz/",
+    icon: FaLink,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/company/reworkd/",
+    href: "https://www.linkedin.com/in/marcus-edwards-a8358311a/",
     icon: FaLinkedin,
   },
 ];

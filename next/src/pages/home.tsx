@@ -12,7 +12,7 @@ const HomePage = () => {
   return (
     <div className="min-w-screen mx-6 grid min-h-screen place-items-center bg-black py-2 selection:bg-purple-700/25 lg:overflow-x-hidden lg:overflow-y-hidden">
       <AppHead
-        title="Reworkd"
+        title="CofoundAi"
         ogTitle="Automate core business workflows with the help of AI Agents"
       />
       <div className="absolute -z-50  h-full w-full bg-black" />
@@ -28,7 +28,7 @@ const HomePage = () => {
             <Backing className="flex-grow" />
             <FooterLinks />
             <div className="font-inter text-xs font-normal text-white/30 lg:order-first lg:text-sm">
-              &copy; 2023 Reworkd AI, Inc.
+              &copy; 2023 CoFound AI, Inc.
             </div>
           </footer>
         </FadeIn>
