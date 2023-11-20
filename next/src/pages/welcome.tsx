@@ -54,13 +54,12 @@ const welcome = () => {
         </motion.div>
         <FadeIn duration={3} delay={0.45} initialY={-40}>
           <h1 className="mb-6 text-5xl font-semibold tracking-widest text-white">
-            Welcome to Reworkd
+            Welcome to CofoundAI
           </h1>
         </FadeIn>
         <FadeIn duration={2.85} delay={0.6} initialY={-40}>
           <p className="mb-8 max-w-lg text-center font-light text-neutral-500">
-            Leverage AI Agents to automate the workflows you once spent countless human hours on.
-            Experience a new way of working.
+            Leverage GPT Agent to automate the workflows you once spent countless human hours on.
           </p>
         </FadeIn>
         <FadeIn duration={2.7} delay={0.75} initialY={-40}>

@@ -1,3 +1,4 @@
+<selection>
 /**
  * v0 by Vercel.
  * @see https://v0.dev/t/dvisyzL22YT
@@ -9,7 +10,11 @@ export default function Component() {
   return (
     <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100">AI Co-Founder</h1>
+        <Link href="/">
+          <a>
+            <h1 className="text-4xl font-extrabold text-gray-900 dark:text-gray-100">AI Co-Founder</h1>
+          </a>
+        </Link>
         <div className="space-x-4">
           <Button className="px-8 py-3 bg-blue-600 text-white rounded-md">Sign In</Button>
           <Link href="#">
@@ -330,4 +335,3 @@ export default function Component() {
     </section>
   )
 }
-
