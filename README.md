@@ -7,9 +7,7 @@ To install and run CofoundAI, use one of the following methods:
 
 For Linux/Mac users:
 
-./setup.sh
-For Windows users:
-docker-compose up
+<ol> <li>For Linux/Mac users: <pre><code>`./setup.sh` </code></pre> </li> <li>For Windows users: <pre><code>`docker-compose up` </code></pre> </li> </ol>
 ##  Requirements
 NPM
 Docker
