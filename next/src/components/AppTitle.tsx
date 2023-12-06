@@ -16,16 +16,6 @@ const AppTitle = () => {
         </span>
       </div>
       <div className="mt-3 text-center font-mono text-[0.7em] font-bold text-white">
-        <div>
-          <BannerBadge
-            className="md:hidden"
-            onClick={() => {
-              window.open("https://6h6bquxo5g1.typeform.com/to/qscfsOf1", "_blank");
-            }}
-          >
-            Automate your business with Agents
-          </BannerBadge>
-        </div>
 
       </div>
     </div>

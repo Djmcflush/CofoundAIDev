@@ -3,13 +3,14 @@
  * @see https://v0.dev/t/rRBlufM
  */
 import Button  from "../components/Button";
+import Link from 'next/link';
 
 export default function Component() {
   return (
     <section className="min-h-screen w-full py-12 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-zinc-900 dark:to-zinc-800 flex items-center justify-center">
       <div className="container px-4 md:px-6">
       <div className="flex items-center justify-between">
-          <Button className="mb-4" variant="outline" onClick={() => window.location.href='/'}>
+          <Button className="mb-4" variant="outline" onClick={() => window.location.href='/new_home'}>
             Back
           </Button>
         </div>
@@ -75,11 +76,13 @@ export default function Component() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full">Get Started</Button>
-            </div>
+            <Link href="/checkout">
+                  <Button className="w-full">Get Started</Button>
+              </Link>           
+               </div>
           </div>
           <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
-            <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               Popular
             </div>
             <div>
@@ -257,7 +260,9 @@ export default function Component() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full">Get Started</Button>
+            <Link href="/checkout">
+                  <Button className="w-full">Get Started</Button>
+              </Link>
             </div>
           </div>
         </div>
