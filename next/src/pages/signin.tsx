@@ -84,7 +84,7 @@ const InsecureSignin = () => {
           !usernameValue && "cursor-not-allowed"
         )}
       >
-        Sign in with username (Insecure)
+        Sign in with username
       </button>
     </div>
   );

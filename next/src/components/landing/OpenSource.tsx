@@ -22,18 +22,18 @@ const OpenSource = () => {
                 "<!DOCTYPE html>\n" +
                 "<html>\n" +
                 "<head>\n" +
-                " <title>My AgentGPT Website</title>\n" +
+                " <title>My CofoundAI Website</title>\n" +
                 "</head>\n" +
                 "<body>\n" +
-                "  <h1>Welcome to AgentGPT!</h1>\n" +
+                "  <h1>Welcome to CofoundAI!</h1>\n" +
                 "  <p>Explore the power of autonomous AI agents.</p>\n" +
                 '  <script src="https://agentgpt.reworkd.ai/agentgpt.js"></script>\n' +
                 "  <script>\n" +
-                "    // Connect to AgentGPT API\n" +
-                "    const agent = new AgentGPT();\n" +
+                "    // Connect to CofoundAI API\n" +
+                "    const agent = new CofoundAI();\n" +
                 "    agent.connect('YOUR_API_KEY');\n" +
                 "    \n" +
-                "    // Example code to interact with AgentGPT\n" +
+                "    // Example code to interact with CofoundAI\n" +
                 "    agent.createAgent('MyAIAssistant');\n" +
                 "    agent.setGoal('Sort my emails');\n" +
                 "    agent.start();\n" +
@@ -61,28 +61,6 @@ const OpenSource = () => {
                 '    print("Error: Unable to fetch data from the API")\n'}
             </pre>
           </Terminal>
-        </div>
-        <div className="mt-28 w-full">
-          <div className="flex w-fit flex-row items-center gap-2 rounded-full bg-neutral-900 bg-gradient-to-bl from-neutral-800  to-transparent p-2 pr-4">
-            <FaGithub size={32} />
-            <div>
-              24.4 k<span className="text-gray-400"> stars</span>
-            </div>
-          </div>
-          <h3 className="my-4 text-6xl font-medium tracking-tight">Proudly Open Source</h3>
-          <p className="mb-8 font-extralight leading-7 text-gray-400">
-            We think the power of AI should be available to everyone and should be driven by
-            community. This is why we are proudly open source. We&apos;d love to hear your feedback
-            at every step of the journey.
-          </p>
-          <div className="mt-6 flex flex-row gap-4">
-            <a href="https://github.com/reworkd" target="_blank">
-              <PrimaryButton>View on Github</PrimaryButton>
-            </a>
-            <a href="https://github.com/orgs/reworkd/projects/3" target="_blank">
-              <PrimaryButton>Public Roadmap</PrimaryButton>
-            </a>
-          </div>
         </div>
       </div>
     </div>

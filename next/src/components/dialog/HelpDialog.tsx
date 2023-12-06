@@ -44,16 +44,16 @@ export default function HelpDialog() {
     >
       <div>
         <p>
-          AgentGPT is the next generation of Google search. Ask any question and watch as an AI
-          Agent gives you the perfect answer after aggregating relevant sources from across the
-          internet.
+          CofoundAI is a revolutionary platform for AI development. It allows you to configure
+          and deploy autonomous AI agents directly from your browser. These agents can interact
+          with websites and people, browse the web, and even have long-term memory capabilities.
         </p>
         <br />
         <p className="mt-2 text-center font-bold">{t("FOLLOW_THE_JOURNEY", { ns: "help" })}</p>
         <div className="mt-4 flex w-full items-center justify-center gap-5">
           <div
             className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
-            onClick={() => window.open("https://discord.gg/jdSBAnmdnY", "_blank")}
+            onClick={() => window.open("https://www.icgnu.xyz/", "_blank")}
           >
             <FaDiscord size={30} />
           </div>
@@ -61,7 +61,7 @@ export default function HelpDialog() {
             className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
             onClick={() =>
               window.open(
-                "https://twitter.com/asimdotshrestha/status/1644883727707959296",
+                "https://twitter.com/Djmcflush",
                 "_blank"
               )
             }
@@ -70,7 +70,7 @@ export default function HelpDialog() {
           </div>
           <div
             className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
-            onClick={() => window.open("https://github.com/reworkd/AgentGPT", "_blank")}
+            onClick={() => window.open("https://github.com/djmcflush/CofoundAIProd", "_blank")}
           >
             <FaGithub size={30} />
           </div>

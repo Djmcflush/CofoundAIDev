@@ -77,7 +77,7 @@ export default function Component() {
             </div>
             <div className="mt-6">
             <Link href="/checkout">
-                  <Button className="w-full">Get Started</Button>
+                  <Button className="w-full bg-blue-500">Get Started</Button>
               </Link>           
                </div>
           </div>
@@ -162,7 +162,7 @@ export default function Component() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
+              <Button className="w-full bg-blue-500">Get Started</Button>
             </div>
           </div>
           <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
