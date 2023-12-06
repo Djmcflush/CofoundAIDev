@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from 'next/image'
-
 const image = "/utils/CFAI Transparent.PNG";
 
 
@@ -26,9 +24,8 @@ const AppHead = ({ title, ogTitle }: { title?: string; ogTitle?: string }) => {
       <meta property="og:image:height" content="640" />
       <meta property="og:type" content="website" />
       <meta name="google-site-verification" content="sG4QDkC8g2oxKSopgJdIe2hQ_SaJDaEaBjwCXZNkNWA" />
-
-      <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-      <link rel="mask-icon" href="/favicon.svg" />
+      <link rel="icon" href="/cfai.svg" type="image/svg+xml" />
+      <link rel="mask-icon" href="/cfai.svg" />
     </Head>
   );
 };
