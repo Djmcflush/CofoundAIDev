@@ -1546,7 +1546,7 @@ files = [
 
 [package.dependencies]
 fastapi = ">=0.97.0"
-langchain = ">=0.0.200"
+langchain = ">=0.0.314"
 python-dotenv = ">=1.0.0,<2.0.0"
 
 [package.extras]
@@ -1556,14 +1556,14 @@ redis = ["redis (>=4.5.5,<5.0.0)"]
 
 [[package]]
 name = "langchain"
-version = "0.0.295"
+version = "0.0.314"
 description = "Building applications with LLMs through composability"
 category = "main"
 optional = false
 python-versions = ">=3.8.1,<4.0"
 files = [
-    {file = "langchain-0.0.295-py3-none-any.whl", hash = "sha256:eb7fad53c2af68771369dfb6d1242b38ab413994491d9b9a49027aafeb22220a"},
-    {file = "langchain-0.0.295.tar.gz", hash = "sha256:e91d2df38bbbecc513b6c6e22090371862450ec8dba22fa9433e2ac71dba106b"},
+    {file = "langchain-0.0.314-py3-none-any.whl", hash = "sha256:b799d4086086ca8f952d5f7b9dc3ebb3cf77b1957d657ee91739cd1689d71a5c"},
+    {file = "langchain-0.0.314.tar.gz", hash = "sha256:96dac382b79a88ee7ccc53aadc2818fd064475f229fde189483fee15558405c8"},
 ]
 
 [package.dependencies]
