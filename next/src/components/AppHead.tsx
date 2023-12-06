@@ -7,17 +7,17 @@ const AppHead = ({ title, ogTitle }: { title?: string; ogTitle?: string }) => {
     <Head>
       <title>{title ?? "CofoundAI"}</title>
       <meta name="description" content={description} />
-      <meta name="twitter:site" content="@ReworkdAI" />
+      <meta name="twitter:site" content="@Djmflush" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title ?? "AgentGPT 🤖"} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content="https://agentgpt.reworkd.ai/banner.png" />
+      <meta name="twitter:image" content="next/src/components/utils/CFAI Transparent.PNG" />
       <meta name="twitter:image:width" content="1280" />
       <meta name="twitter:image:height" content="640" />
       <meta property="og:title" content={ogTitle ?? "AgentGPT: Autonomous AI in your browser 🤖"} />
       <meta property="og:description" content={description} />
-      <meta property="og:url" content="https://agentgpt.reworkd.ai/" />
-      <meta property="og:image" content="https://agentgpt.reworkd.ai/banner.png" />
+      <meta property="og:url" content="http://3.82.9.241:3000/" />
+      <meta property="og:image" content="next/src/components/utils/CFAI Transparent.PNG" />
       <meta property="og:image:width" content="1280" />
       <meta property="og:image:height" content="640" />
       <meta property="og:type" content="website" />
